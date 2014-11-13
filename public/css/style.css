@@ -1,0 +1,31 @@
+#upload-form {
+	height: 300px;
+	margin: 20px;
+	border: 2px dashed #ccc;
+	position: relative;
+}
+
+#upload-form p {
+	position: absolute;
+	top: 40%;
+	left: 20%;
+}
+
+#upload-form i {
+	font-size: 20px;
+}
+
+#fileinput {
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 100;
+	cursor: pointer;	
+}
+
+#upload-form:hover i {
+	opacity: .8;
+}
